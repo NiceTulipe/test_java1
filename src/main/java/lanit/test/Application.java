@@ -2,7 +2,6 @@ package lanit.test;
 
 import animals.Kotik;
 
-
 public class Application {
 
     public static void main(String[] args) {
