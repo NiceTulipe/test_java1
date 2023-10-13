@@ -1,14 +1,11 @@
 package lanit.test;
 
 import animals.Kotik;
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
+
 public class Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
         Kotik kotik1 = new Kotik();
         Kotik kotik2 = new Kotik("Котенок_гав", "гав", 4, 10);
         kotik1.setName("Вася");
